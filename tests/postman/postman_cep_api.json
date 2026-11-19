@@ -1,0 +1,23 @@
+{
+    "info": {
+        "_postman_id": "9b0da42d-1841-4cf1-8f62-d03869b2c7fd",
+        "name": "API CEP Laravel",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Consultar CEP",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8000/api/cep/01001000",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8000",
+                    "path": ["api", "cep", "01001000"]
+                }
+            }
+        }
+    ]
+}
